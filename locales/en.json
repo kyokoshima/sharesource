@@ -1,0 +1,21 @@
+{
+  "name": "Name",
+  "project": "Project",
+  "organization": "Organization",
+  "project-name": "Project name",
+  "start-date": "Start date",
+  "end-date": "End date",
+  "description": "Description",
+  "members": "Members",
+  "append": "Append",
+  "close": "Close",
+  "submit": "Submit",
+  "clear": "Clear",
+  "language": "Language",
+  "member-id": "Member ID",
+  "first-name": "First name",
+  "last-name": "Last name",
+  "email": "Email",
+  "member": "Member",
+  "joining-projects": "Joining projects"
+}

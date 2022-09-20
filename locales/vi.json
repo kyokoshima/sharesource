@@ -1,0 +1,21 @@
+{
+  "name": "Tên",
+  "project": "Dự án",
+  "organization": "cơ quan",
+  "project-name": "Tên dự án",
+  "start-date": "ngày bắt đầu",
+  "end-date": "ngày cuối",
+  "description": "sự mô tả",
+  "members": "các thành viên",
+  "append": "nối thêm",
+  "close": "đóng lại",
+  "submit": "Gửi đi",
+  "clear": "xa lạ",
+  "language": "ngôn ngữ",
+  "member-id": "Mã thành viên",
+  "first-name": "họ",
+  "last-name": "tên gia đình",
+  "email": "E-mail",
+  "member": "thành viên",
+  "joining-projects": "dự án tham gia"
+ }

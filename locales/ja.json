@@ -1,0 +1,21 @@
+{
+  "name": "名前",
+  "project": "プロジェクト",
+  "organization": "組織",
+  "project-name": "プロジェクト名",
+  "start-date": "開始日",
+  "end-date": "終了日",
+  "description": "概要",
+  "members": "メンバー",
+  "append": "追加",
+  "close": "閉じる",
+  "submit": "送信",
+  "clear": "クリア",
+  "language": "言語",
+  "member-id": "メンバーID",
+  "first-name": "名前",
+  "last-name": "苗字",
+  "email": "メールアドレス",
+  "member": "メンバー",
+  "joining-projects": "参加しているプロジェクト"
+}

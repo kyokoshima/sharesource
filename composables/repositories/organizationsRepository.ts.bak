@@ -1,0 +1,33 @@
+// import { Cosmos } from './Repository';
+
+const containerId = 'organizations'
+type Orgainzation = {
+  id?: string,
+  name: string
+}
+export const OrganizationRepository =(app: any) => ({
+  async findAll() {
+    // Cosmos.getContainer('organizations')
+    const result = await app.$cosmos.findAll(containerId)
+    return result;
+  },
+  async create(name : string) {
+    const item : Orgainzation = {name}
+    console.log(item)
+    const r = await app.$cosmos.create(containerId, item)
+    return r
+  },
+  async existsByName(name : string) {
+    return await app.$cosmos.existsByName(containerId, name)
+  },
+  async delete(id : string) {
+    const r = await app.$cosmos.delete(containerId, id)
+    console.log(r)
+    return r
+  },
+  async upsert(item : Orgainzation) {
+    const r = await app.$cosmos.upsert(containerId, item)
+    console.log(r)
+    return r
+  }
+})
